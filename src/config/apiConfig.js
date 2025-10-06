@@ -9,7 +9,7 @@ if (import.meta.env?.VITE_API_BASE_URL) {
 
 // 2️⃣ Else, fall back to NODE_ENV logic
 } else if (process.env.NODE_ENV === "production") {
-  API_BASE_URL = "backendecommerce-production-f9ab.up.railway.app"; // Railway backend
+  API_BASE_URL = "https://backendecommerce-production-f9ab.up.railway.app"; // Railway backend
 
 // 3️⃣ Else, default to localhost for development
 } else {
